@@ -65,10 +65,36 @@ color: #E5E7EB;
 .title-wrap {
     padding-top: 50px;
    display: flex;
-   
+}
+.title-container {
+   display: flex;   
+   flex-direction: column;
+   justify-content: center;
+   gap: 0.8rem;
+}
+.title-container h1, .title-container p, .title-container input{
+    margin: 0;
+}
+.main-title-button {
+    align-self: flex-start;
+   background-color: #3882f6; 
+   color: #E5E7EB;
+   border-radius: 5px;
+   font-size: 15px;
+   font-weight: 800;
+   padding: 7px 28px;
+   border-style: hidden;
+
 }
 /* img config */
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-left: 15%;
+}
 .img-title {
-    width: 400px;
-    height: 200px;
+    margin: auto;
+    width: 450px;
+    height: 250px;
 }
